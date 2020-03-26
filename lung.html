@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PKU—medical—image</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://transloadit.edgly.net/releases/uppy/v1.11.0/uppy.min.css" rel="stylesheet"> 
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="flaticon-pharmacy"></i><span>PKU</span>医疗图像平台</a>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">主页</a></li>
+          <li class="nav-item active"><a href="lung.html" class="nav-link">肺部MRI检测</a></li>
+          <li class="nav-item"><a href="departments.html" class="nav-link">阿尔兹海默症CT检测</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">肾GFR值计算</a></li>
+          <li class="nav-item cta"><a href="contact.html" class="nav-link" data-toggle="modal" data-target="#modalAppointment"><span>登录</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- END nav -->
+    
+    <section class="ftco-section" style="padding: 3em 0;">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-md-12 mb-4">
+              <h2 class="h4 text-center">肺部MRI检测</h2>
+            </div>
+            <!-- <div class="w-100"></div>
+            <div class="col-md-3">
+              <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+            <div class="col-md-3">
+              <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            </div>
+            <div class="col-md-3">
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            </div>
+            <div class="col-md-3">
+              <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            </div> -->
+          </div>
+          <div class="row block-9">
+            <!-- <div class="col-md-6"> -->
+                <div id="drag-drop-area" class="m-auto"></div>
+                
+            <!-- </div> -->
+  
+            <!-- <div class="col-md-6" id="map"></div> -->
+          </div>
+          <div class="row pt-3">
+            <input type="submit" value="开始分析" class="btn btn-primary py-3 px-5 m-auto">
+          </div>
+        </div>
+      </section>
+
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_5.jpg); padding: 1em 0 0 0">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>北京大学网络与信息系统研究所移动组</p>
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAppointmentLabel">用户系统</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label for="appointment_email" class="text-black">邮箱/Email</label>
+                <input type="text" class="form-control" id="appointment_email">
+              </div>
+              <div class="form-group">
+                <label for="appointment_password" class="text-black">密码/Password</label>
+                <input type="text" class="form-control" id="appointment_password">
+              </div>
+              
+              <div class="form-group">
+                <input type="submit" value="登录" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  <script src="https://transloadit.edgly.net/releases/uppy/v1.11.0/uppy.min.js"></script>
+  <script>
+      
+      var uppy = Uppy.Core({
+        autoProceed: true,
+        restrictions: {
+            maxFileSize: 1000000,
+            maxNumberOfFiles: 1,
+            allowedFileTypes: ['image/*', 'video/*']
+        },})
+        .use(Uppy.Dashboard, {
+          inline: true,
+          target: '#drag-drop-area',
+          height: 500,
+          
+          locale:{strings: {
+            // Shown in the main dashboard area when no files have been selected, and no provider
+            // plugins are in use. %{browse} is replaced with a link that opens the system
+            // file selection dialog.
+            dropPaste: '拖动肺部MRI图片到这里，粘贴或者 %{browse}',
+            // This string is clickable and opens the system file selection dialog.
+            browse: '浏览',
+            // Used as the hover text and screen reader label for file progress indicators when
+            // they have been fully uploaded.
+            uploadComplete: '上传成功',
+
+            // Used in a title, how many files are currently selected
+            xFilesSelected: {
+                0: '%{smart_count} 个文件被选中',
+                1: '%{smart_count} 个文件被选中'
+            },
+
+            // @uppy/status-bar strings:
+            uploading: '正在上传',
+            complete: '完成',
+            uploadFailed: '上传失败',
+            cancel: '取消',
+            // ...etc
+            }}
+        })
+        .use(Uppy.Tus, {endpoint: 'https://master.tus.io/files/'})
+        
+
+      uppy.on('complete', (result) => {
+        console.log('Upload complete! We’ve uploaded these files:', result.successful)
+      })
+  </script>
+  </body>
+</html>
